@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220316105659">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__top">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.svg">
+                </a>
+            </div>
+            <div class="toggle">
+                <button class="toggle__btn">
+                    <img src="img/bar.svg">
+                </button>
+            </div>
+            <div class="schedule">
+                <strong class="header__strong">Отвечаем на звонки с 9:00 до 21:00 без выходных</strong>
+            </div>
+            <div class="address">
+                <div class="address-img">
+                    <img src="img/map.svg">
+                </div>
+                <div class="address__text">
+                    <strong class="header__strong">г. Краснодар, ул. Красных Партизан, 483</strong>
+                </div>
+            </div>
+            <div class="header-btn">
+                <button class="btn" type="button">Рассчитать стоимость</button>
+            </div>
+            <div class="number">
+                <div class="number__body">
+                    <strong class="number__strong">+7 (8612) 17-93-76</strong>
+                    <strong class="number__strong">+7 (989) 277-94-30</strong>
+                    <button class="number__btn" type="button">Вам перезвонить?</button>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link menu__link--active">Цены</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Акция</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Материалы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Как заказать</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Наши работы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Отзывы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <main class="main__page">
+        <section class="intro">
+            <div class="container">
+                <div class="intro__body">
+                    <div class="intro-block">
+                        <h1 class="intro-block__title title">Кухни на заказ <span> в Краснодаре</span></h1>
+                        <ul class="intro-block__list">
+                            <li>
+                                <img src="img/intro-icon__1.svg">от <span>19990 ₽ м./п.</span>
+                            </li>
+                            <li>
+                                <img src="img/intro-icon__2.svg">Изготовим от <span>7 дней</span>
+                            </li>
+                            <li>
+                                <img src="img/intro-icon__3.svg">Гарантия <span>2 года</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="stock__modal">
+                        <div class="stock-modal__block">
+                            <h6 class="stock-block__title">Акция</h6>
+                            <strong class="stock-block__suptitle">Скидка <span>35%</span> на Вашу кухню</strong>
+                            <p class="stock-block__text">до 01.01.2022</p>
+                        </div>
+                        <div class="stock-modal__submit">
+                            <input type="text" class="stock-modal__input" placeholder="Введите номер телефона">
+                            <button type="submit" class="stock-modal__btn">Получить скидку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="services__body">
+                    <div class="services__row">
+                        <div class="services__column">
+                            <div class="services-img">
+                                <img src="img/service-1.svg">
+                            </div>
+                            <div class="services__text">
+                                <p>Рассрочка 0%до 12 месяцев</p>
+                            </div>
+                        </div>
+                        <div class="services__column">
+                            <div class="services-img">
+                                <img src="img/service-2.svg">
+                            </div>
+                            <div class="services__text">
+                                <p>Устанавливаем кухни с 2013 года</p>
+                            </div>
+                        </div>
+                        <div class="services__column">
+                            <div class="services-img">
+                                <img src="img/service-3.svg">
+                            </div>
+                            <div class="services__text">
+                                <p>Бесплатная установка</p>
+                            </div>
+                        </div>
+                        <div class="services__column">
+                            <div class="services-img">
+                                <img src="img/service-4.svg">
+                            </div>
+                            <div class="services__text">
+                                <p>Срок службы 20 лет</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="kitchens">
+            <div class="container">
+                <div class="kitchens__body">
+                    <div class="kitchens__block">
+                        <h1 class="kitchens-block__title title">Какие кухни <span>мы производим?</span></h1>
+                    </div>
+                    <div class="kitchens__row">
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-1.webp" type="image/webp"><img src="img/kitchen-1.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>пластик</strong></p>
+                                            <p>фурнитура:<strong>Fennel</strong></p>
+                                            <p>столешница:<strong>Постформинг</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 26 850</strong><span>19 990 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-2.webp" type="image/webp"><img src="img/kitchen-2.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Крашенный МДФ и шпонированный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Blum</strong></p>
+                                            <p>столешница:<strong>Компакт-плита</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 28 620</strong><span>21 200 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-3.webp" type="image/webp"><img src="img/kitchen-3.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Пластик и шпонированный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Blum</strong></p>
+                                            <p>столешница:<strong>Постформинг</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 32 900</strong><span>24 400 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-4.webp" type="image/webp"><img src="img/kitchen-4.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>пластик</strong></p>
+                                            <p>фурнитура:<strong>Braun</strong></p>
+                                            <p>столешница:<strong>Постформинг</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 29 200</strong><span>21 700 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-5.webp" type="image/webp"><img src="img/kitchen-5.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Массив и шпонированный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Blum</strong></p>
+                                            <p>столешница:<strong>Компакт-плита</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 61 100</strong><span>45 300 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-6.webp" type="image/webp"><img src="img/kitchen-6.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Крашенный МДФ и шпонированный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Hettich</strong></p>
+                                            <p>столешница:<strong>Постформинг</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 34 600</strong><span>25 700 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-6.webp" type="image/webp"><img src="img/kitchen-6.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Крашенный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Hettich</strong></p>
+                                            <p>столешница:<strong>Искусственный камень</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 32 200</strong><span>23 900 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-8.webp" type="image/webp"><img src="img/kitchen-8.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Крашенный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Hettich</strong></p>
+                                            <p>столешница:<strong>Компакт панель</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 26 850</strong><span>19 990 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kitchens__column">
+                            <div class="kitchens__cart">
+                                <div class="kitchens-cart__img">
+                                    <picture><source srcset="img/kitchen-9.webp" type="image/webp"><img src="img/kitchen-9.png"></picture>
+                                </div>
+                                <div class="kitchens-cart__body">
+                                    <div class="kitchens-cart__item">
+                                        <div class="kitchens-cart__info">
+                                            <p>материал фасадов:<strong>Крашенный МДФ</strong></p>
+                                            <p>фурнитура:<strong>Blum</strong></p>
+                                            <p>столешница:<strong>Постформинг</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="kitchens-cart__content">
+                                        <div class="kitchens-cart__price">
+                                            <p>Цена:<strong>от 27 300</strong><span>20 200 ₽ м./п.</span></p>
+                                        </div>
+                                        <div class="kitchens-cart__btns">
+                                            <button class="cart__btn" type="button">Получить каталог</button>
+                                            <button class="cart__btn active" type="button">Рассчитать стоимость</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__block">
+                    <h1 class="catalog-block__title title">Не нашли нужную модель? <span>Она у нас точно есть!</span>
+                    </h1>
+                    <p class="catalog-block__text">Мы установили более <span>3000</span> кухонь на заказ! Получите
+                        подробный каталог
+                    </p>
+                </div>
+                <div class="catalog__cards">
+                    <div class="catalog__card">
+                        <div class="catalog-card__img">
+                            <picture><source srcset="img/catalog-1.webp" type="image/webp"><img src="img/catalog-1.png"></picture>
+                        </div>
+                        <div class="catalog-card__item">
+                            <div class="catalog-card__header">Современные кухни</div>
+                            <div class="catalog-card__text">У нас более <span>650</span> моделей современных кухонь.
+                            </div>
+                            <div class="catalog-card__btn">
+                                <button class="btn" type="button">Получить каталог</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <div class="catalog-card__img">
+                            <picture><source srcset="img/catalog-2.webp" type="image/webp"><img src="img/catalog-2.png"></picture>
+                        </div>
+                        <div class="catalog-card__item">
+                            <div class="catalog-card__header">Кухни Лофт</div>
+                            <div class="catalog-card__text">У нас более <span>470</span> моделей кухонь в стиле Лофт.
+                            </div>
+                            <div class="catalog-card__btn">
+                                <button class="btn" type="button">Получить каталог</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <div class="catalog-card__img">
+                            <picture><source srcset="img/catalog-3.webp" type="image/webp"><img src="img/catalog-3.png"></picture>
+                        </div>
+                        <div class="catalog-card__item">
+                            <div class="catalog-card__header">Классические кухни</div>
+                            <div class="catalog-card__text">У нас более <span>730</span> моделей классических кухонь.
+                            </div>
+                            <div class="catalog-card__btn">
+                                <button class="btn" type="button">Получить каталог</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="consultation">
+            <div class="container">
+                <div class="consultation__body">
+                    <div class="consultation__block">
+                        <h1 class="consultation-block__title title">Не знаете какой выбрать <span>дизайн кухни?</span>
+                        </h1>
+                        <div class="consultation__designers">
+                            <div class="consultation-designers__img">
+                                <picture><source srcset="img/human.webp" type="image/webp"><img src="img/human.png"></picture>
+                                <div class="consultation-img__item">
+                                    <div class="consultation-img__text"><span>Юлия,</span> Дизайнер кухонь, работает с
+                                        <span>2013</span> года.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="consultation-designers__info">
+                                <div class="consultaion-info__header">
+                                    <h3 class="consultation-block__title title">Обратитесь к нашим
+                                        <span>дизайнерам!</span>
+                                    </h3>
+                                    <p class="consultation-block__text">Более 3000 клиентов благодарны нашим дизайнерам
+                                        за:</p>
+                                </div>
+                                <div class="consultaion-info__item">
+                                    <div class="consultaion-info__text">
+                                        <span>
+                                            <img src="img/check.svg">
+                                        </span>
+                                        <p>Скрупулезную и терпеливую работу по созданию проекта идеальной кухни.</p>
+                                    </div>
+                                    <div class="consultaion-info__text">
+                                        <span>
+                                            <img src="img/check.svg">
+                                        </span>
+                                        <p>Подбор материалов с экономией до 60% без потери качества.</p>
+                                    </div>
+                                    <div class="consultaion-info__text">
+                                        <span>
+                                            <img src="img/check.svg">
+                                        </span>
+                                        <p>100% соответствие дизайн-проекта с реальностью.</p>
+                                    </div>
+                                </div>
+                                <div class="consultation-designers__contact">
+                                    <div class="consultation-contact__text">Оставьте свой номер телефона и наш дизайнер
+                                        свяжется с Вами в ближайшее время</div>
+                                    <div class="consultation__modal">
+                                        <input type="text" class="consultation-modal__input"
+                                            placeholder="Введите номер">
+                                        <button class="btn" type="button">Получить консультацию</button>
+                                        <button class="btn white" type="button">Прикрепить свой проект</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solution">
+            <div class="container">
+                <div class="solution__block">
+                    <h1 class="solution-block__title title">Наши <span>дополнительные решения</span> для Вашей кухни
+                    </h1>
+                </div>
+                <div class="solution__row">
+                    <div class="solution__column">
+                        <div class="solution-column__img">
+                            <picture><source srcset="img/consultation-1.webp" type="image/webp"><img src="img/consultation-1.png"></picture>
+                        </div>
+                        <div class="solution-column__item">
+                            <div class="solution-column__text">Подключение техники для кухни</div>
+                            <div class="solution-column__btn">
+                                <button class="btn solution__btn">Получить консультацию</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution__column">
+                        <div class="solution-column__img">
+                            <picture><source srcset="img/consultation-2.webp" type="image/webp"><img src="img/consultation-2.png"></picture>
+                        </div>
+                        <div class="solution-column__item">
+                            <div class="solution-column__text">Подключение освещения</div>
+                            <div class="solution-column__btn">
+                                <button class="btn solution__btn">Получить консультацию</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution__column">
+                        <div class="solution-column__img">
+                            <picture><source srcset="img/consultation-3.webp" type="image/webp"><img src="img/consultation-3.png"></picture>
+                        </div>
+                        <div class="solution-column__item">
+                            <div class="solution-column__text">Подключение сантехники</div>
+                            <div class="solution-column__btn">
+                                <button class="btn solution__btn">Получить консультацию</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__body">
+                    <div class="about__block">
+                        <h1 class="about-block__title title">Почему выбирают <span>наши кухни?</span></h1>
+                    </div>
+                    <div class="about__row">
+                        <div class="about__column">
+                            <div class="about-column__img">
+                                <picture><source srcset="img/about-1.webp" type="image/webp"><img src="img/about-1.png"></picture>
+                            </div>
+                            <div class="about-column__item">
+                                <div class="about-item__title">Современные фасады</div>
+                                <div class="about-item__text">Наши фасады на <span>40%</span> долговечнее обычных, так
+                                    как они
+                                    влагоустойчивы и не подвержены повреждениям. В наличии более <span>250</span> фактур
+                                    и <span>2000</span>
+                                    оттенков.</div>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="about-column__img">
+                                <picture><source srcset="img/about-2.webp" type="image/webp"><img src="img/about-2.png"></picture>
+                            </div>
+                            <div class="about-column__item">
+                                <div class="about-item__title">Прочные столешницы</div>
+                                <div class="about-item__text">Наши столешницы на <span>25%</span> прочнее и в
+                                    <span>2</span> раза влагоустойчивее
+                                    чем обычные. В наличии <span>10</span> покрытий и <span>170</span> вариантов
+                                    расцветок и фактур.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="about-column__img">
+                                <picture><source srcset="img/about-3.webp" type="image/webp"><img src="img/about-3.png"></picture>
+                            </div>
+                            <div class="about-column__item">
+                                <div class="about-item__title">Долговечная и функциональная фурнитура</div>
+                                <div class="about-item__text"></div>Выдерживает более <span>20</span> лет службы.
+                                Создает максимальный комфорт и удобство пользования кухней.
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="about-column__img">
+                                <picture><source srcset="img/about-4.webp" type="image/webp"><img src="img/about-4.png"></picture>
+                            </div>
+                            <div class="about-column__item">
+                                <div class="about-item__title">Полный комплект документов</div>
+                                <div class="about-item__text">Вы получите: договор, кассовый чек, гарантийный талон и
+                                    правила эксплуатации. Это гарантирует защиту Ваших прав.</div>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="about-column__img">
+                                <picture><source srcset="img/about-5.webp" type="image/webp"><img src="img/about-5.png"></picture>
+                            </div>
+                            <div class="about-column__item">
+                                <div class="about-item__title">Опытные и вежливые сборщики</div>
+                                <div class="about-item__text">Наши сборщики вежливы и аккуратны. Соберут, установят и
+                                    вынесут строительный мусор. Имеют стаж работы с кухнями не менее <span>6</span> лет.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="about-column__img">
+                                <picture><source srcset="img/about-6.webp" type="image/webp"><img src="img/about-6.png"></picture>
+                            </div>
+                            <div class="about-column__item">
+                                <div class="about-item__title">Бесплатная доставка и сборка кухни</div>
+                                <div class="about-item__text">Мы бесплатно доставим, соберем и установим Вашу кухню в
+                                    любой точке Краснодара.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn" type="button">Рассчитать стоимость</button>
+                        <button class="btn white">Получить весь каталог</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="container">
+                <div class="steps__body">
+                    <div class="steps-body__block">
+                        <h1 class="steps-body__title title">5 шагов к Вашей <span>идеальной кухне</span></h1>
+                    </div>
+                    <div class="steps__row">
+                        <div class="steps__column box-1">
+                            <div class="steps-column__img">
+                                <picture><source srcset="img/steps-1.webp" type="image/webp"><img src="img/steps-1.png"></picture>
+                            </div>
+                            <div class="steps-column__item">
+                                <div class="steps-item__header"><span>1</span>Заявка</div>
+                                <div class="steps-item__text"><span>Вы оставляете заявку</span> или звоните нам <span>+7
+                                        (989) 277-94-30</span> Наш специалист подробно расскажет Вам об особенностях
+                                    наших кухонь, вариантах оплаты и ее установки.</div>
+                            </div>
+                        </div>
+                        <div class="steps__column box-2">
+                            <div class="steps-column__img">
+                                <picture><source srcset="img/steps-2.webp" type="image/webp"><img src="img/steps-2.png"></picture>
+                            </div>
+                            <div class="steps-column__item">
+                                <div class="steps-item__header"><span>2</span>Консультация дизайнера</div>
+                                <div class="steps-item__text">Наши дизайнеры с 9:00 до 21: 00 помогут Вам подобрать
+                                    идеальную кухню, проведут замер, сделают проект и рассчитают стоимость.</div>
+                            </div>
+                        </div>
+                        <div class="steps__column box-3">
+                            <div class="steps-column__img">
+                                <picture><source srcset="img/steps-3.webp" type="image/webp"><img src="img/steps-3.png"></picture>
+                            </div>
+                            <div class="steps-column__item">
+                                <div class="steps-item__header"><span>3</span>Заключение договора</div>
+                                <div class="steps-item__text">Подписываем договор, выдаем чек, оформляем рассрочку,
+                                    согласовываем удобное для Вас время доставки и сборки.</div>
+                            </div>
+                        </div>
+                        <div class="steps__column box-4">
+                            <div class="steps-column__img">
+                                <picture><source srcset="img/steps-4.webp" type="image/webp"><img src="img/steps-4.png"></picture>
+                            </div>
+                            <div class="steps-column__item">
+                                <div class="steps-item__header"><span>4</span>Доставка и сборка кухни</div>
+                                <div class="steps-item__text">Привезем Вашу кухню, соберем и установим. Время работ
+                                    зависит от выбранного Вами материала и перечня дополнительных работ. По окончанию
+                                    сборки делаем уборку, выносим мусор.</div>
+                            </div>
+                        </div>
+                        <div class="steps__column box-5">
+                            <div class="steps-column__img">
+                                <picture><source srcset="img/steps-5.webp" type="image/webp"><img src="img/steps-5.png"></picture>
+                            </div>
+                            <div class="steps-column__item">
+                                <div class="steps-item__header"><span>5</span>Поздравляем! Ваша кухня готова!</div>
+                                <div class="steps-item__text">Теперь вы можете наслаждаться временем проведенным с
+                                    семьей на Вашей новой кухне.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn" type="button">Рассчитать стоимость</button>
+                        <button class="btn white">Получить весь каталог</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__body">
+                    <div class="reviews-body__block">
+                        <h1 class="reviews-block__title title">Нам <span>благодарны</span></h1>
+                    </div>
+                    <div class="reviews__row">
+                        <div class="reviews__column">
+                            <div class="reviews-column__block">
+                                <div class="reviews-column__date">12.10.2021</div>
+                                <div class="reviews-column__name">Ирина Егорова</div>
+                                <div class="reviews-column__stars">
+                                    <img src="img/star.svg">
+                                    <img src="img/star.svg">
+                                    <img src="img/star.svg">
+                                    <img src="img/star.svg">
+                                    <img src="img/star.svg">
+                                </div>
+                                <div class="reviews-column__text">
+                                    Заказали кухню в свою квартиру. Дизайн и качество нас полностью устраивает. С
+                                    доставкой проблем не возникло, всё привезли без задержки и полный комплект, ничто не
+                                    повредилось, опытные сборщики быстро и качественно собрали всю кухню. Кроме того
+                                    компания сделала нам хорошую скидку, отношение к клиентам очень теплое, спасибо вам.
+                                </div>
+                                <div class="reviews-column__btn"><button class="btn" type="button">Получить дизайн
+                                        проект</button>
+                                </div>
+                            </div>
+                            <div class="reviews-column__img">
+                                <picture><source srcset="img/review__avatar.webp" type="image/webp"><img src="img/review__avatar.png"></picture>
+                                <picture><source srcset="img/review__res.webp" type="image/webp"><img src="img/review__res.png"></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container">
+                <div class="order__body">
+                    <div class="order-body__block">
+                        <h1 class="order-block__title title">Кухни на заказ <span>в Краснодаре</span></h1>
+                        <ul class="order-block__list">
+                            <li>
+                                <img src="img/intro-icon__1.svg">
+                                <p>Цена от <span>19990 ₽ м./п.</span></p>
+                            </li>
+                            <li>
+                                <img src="img/intro-icon__2.svg">
+                                <p>Изготовим от <span>7 дней</span></p>
+                            </li>
+                            <li>
+                                <img src="img/intro-icon__3.svg">
+                                <p>Гарантия <span>2 года</span></p>
+                            </li>
+                        </ul>
+                        <div class="stock__modal">
+                            <div class="stock-modal__block">
+                                <h6 class="stock-block__title">Акция</h6>
+                                <strong class="stock-block__suptitle">Скидка <span>35%</span> на Вашу кухню</strong>
+                                <p class="stock-block__text">до 01.01.2022</p>
+                            </div>
+                            <div class="stock-modal__submit">
+                                <input type="text" class="stock-modal__input" placeholder="Введите номер телефона">
+                                <button type="submit" class="stock-modal__btn">Получить скидку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="container">
+                <div class="questions__body">
+                    <div class="questions-body__block">
+                        <h1 class="questions-block__title title">Остались вопросы? — <span>С радостью ответим на
+                                них!</span></h1>
+                    </div>
+                    <div class="questions-body__item">
+                        <div class="questions-item__info">
+                            <div class="questions-info__content">
+                                <img src="img/clock.svg">
+                                <p>Отвечаем на звонки с 9:00 до 21:00 без выходных!</p>
+                            </div>
+                            <div class="questions-info__content">
+                                <img src="img/map.svg">
+                                <p>г. Краснодар, ул. Красных Партизан, 483</p>
+                            </div>
+                        </div>
+                        <div class="questions-item__img">
+                            <picture><source srcset="img/human-2.webp" type="image/webp"><img src="img/human-2.png"></picture>
+                            <strong><span>Юлия,</span> Дизайнер</strong>
+                        </div>
+                        <div class="questions-item__call">
+                            <img src="img/call.svg">
+                            <p>+7 (989) 277-94-30</p>
+                        </div>
+                    </div>
+                    <div class="questions__number">
+                        <div class="questions__number__block">
+                            <h3 class="questions__number-block__title">Оставьте свой номер телефона
+                                наш дизайнер свяжется с Вами в ближайшее время!
+                            </h3>
+                            <div class="questions__number__submit">
+                                <input type="text" placeholder="Введите номер телефона">
+                                <button class="btn" type="button">Задать вопрос</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__block">
+                    <div class="contacts-block__title">Контакты</div>
+                    <div class="contacts-block__item">
+                        <div class="contacts-block__box">
+                            <div class="contacts-block__address">
+                                <strong>Адрес:</strong>
+                                <p>г. Краснодар, ул. Красных Партизан, 483 (работаем по г. Краснодар)</p>
+                            </div>
+                            <div class="contacts-block__address">
+                                <strong>Телефон:</strong>
+                                <p>+7 (8612) 17-93-76<br>+7 (989) 277-94-30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/app.min.js?_v=20220316105659"></script>
+</body>
+
+</html>
